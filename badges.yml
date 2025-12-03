@@ -1,0 +1,78 @@
+# APEX TECHNICAL AUTHORITY: BADGE CONFIGURATION (DECEMBER 2025 STANDARD)
+# This file serves as the Single Source of Truth (SSOT) for all repository badges.
+# Use this to maintain consistency across all documentation (README.md, etc.).
+# Style: flat-square is MANDATORY.
+
+badges:
+  # --- CI/CD & Code Quality ---
+  - name: "Build Status"
+    imageUrl: "https://img.shields.io/github/actions/workflow/status/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension/ci.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white"
+    targetUrl: "https://github.com/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension/actions/workflows/ci.yml"
+    markdown: "[
+![Build Status](https://img.shields.io/github/actions/workflow/status/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension/ci.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white)
+](https://github.com/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension/actions/workflows/ci.yml)"
+
+  - name: "Code Coverage"
+    imageUrl: "https://img.shields.io/codecov/c/github/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension?style=flat-square&logo=codecov&logoColor=white"
+    targetUrl: "https://codecov.io/gh/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension"
+    markdown: "[
+![Code Coverage](https://img.shields.io/codecov/c/github/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension?style=flat-square&logo=codecov&logoColor=white)
+](https://codecov.io/gh/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension)"
+
+  - name: "Lint & Format (Biome)"
+    imageUrl: "https://img.shields.io/badge/Lint%20%26%20Format-Biome-60A5FA?style=flat-square&logo=biome&logoColor=white"
+    targetUrl: "https://biomejs.dev/"
+    markdown: "[
+![Lint & Format: Biome](https://img.shields.io/badge/Lint%20%26%20Format-Biome-60A5FA?style=flat-square&logo=biome&logoColor=white)
+](https://biomejs.dev/)"
+
+  # --- Tech Stack ---
+  - name: "TypeScript"
+    imageUrl: "https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white"
+    targetUrl: "https://www.typescriptlang.org/"
+    markdown: "[
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)
+](https://www.typescriptlang.org/)"
+
+  - name: "Vite"
+    imageUrl: "https://img.shields.io/badge/Vite-5.x-646CFF?style=flat-square&logo=vite&logoColor=white"
+    targetUrl: "https://vitejs.dev/"
+    markdown: "[
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=flat-square&logo=vite&logoColor=white)
+](https://vitejs.dev/)"
+
+  - name: "Manifest V3"
+    imageUrl: "https://img.shields.io/badge/Manifest-V3-4285F4?style=flat-square&logo=googlechrome&logoColor=white"
+    targetUrl: "https://developer.chrome.com/docs/extensions/mv3/"
+    markdown: "[
+![Manifest V3](https://img.shields.io/badge/Manifest-V3-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+](https://developer.chrome.com/docs/extensions/mv3/)"
+
+  # --- Repository Metadata ---
+  - name: "License"
+    imageUrl: "https://img.shields.io/github/license/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension?style=flat-square&color=blue"
+    targetUrl: "https://github.com/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension/blob/main/LICENSE"
+    markdown: "[
+![License](https://img.shields.io/github/license/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension?style=flat-square&color=blue)
+](https://github.com/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension/blob/main/LICENSE)"
+
+  - name: "GitHub Stars"
+    imageUrl: "https://img.shields.io/github/stars/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension?style=flat-square&logo=github&logoColor=white"
+    targetUrl: "https://github.com/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension/stargazers"
+    markdown: "[
+![GitHub Stars](https://img.shields.io/github/stars/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension?style=flat-square&logo=github&logoColor=white)
+](https://github.com/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension/stargazers)"
+
+  - name: "Last Commit"
+    imageUrl: "https://img.shields.io/github/last-commit/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension?style=flat-square&logo=github&logoColor=white"
+    targetUrl: "https://github.com/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension/commits/main"
+    markdown: "[
+![Last Commit](https://img.shields.io/github/last-commit/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension?style=flat-square&logo=github&logoColor=white)
+](https://github.com/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension/commits/main)"
+
+  - name: "Repo Size"
+    imageUrl: "https://img.shields.io/github/repo-size/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension?style=flat-square&logo=github&logoColor=white"
+    targetUrl: "https://github.com/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension"
+    markdown: "[
+![Repo Size](https://img.shields.io/github/repo-size/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension?style=flat-square&logo=github&logoColor=white)
+](https://github.com/chirag127/CogniDigest-AI-Web-Content-Summarizer-Browser-Extension)"
